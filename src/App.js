@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   const handleCity = async (city) => {
-    if (city == "Semua") {
+    if (city === "Semua") {
       try {
         const { data } = await fetchData();
         setData(data);
@@ -32,7 +32,7 @@ function App() {
     } else {
       try {
         const { data } = await province();
-        const proiviceData = data.find((e) => e.provinsi == city);
+        const proiviceData = data.find((e) => e.provinsi === city);
         const newObjData = {
           jumlahKasus: proiviceData.kasusPosi,
           sembuh: proiviceData.kasusSemb,
@@ -45,7 +45,7 @@ function App() {
     }
   };
 
-  console.log(data);
+  
   return (
     <div className="App">
       <Header/>

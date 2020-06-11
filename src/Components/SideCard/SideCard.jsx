@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardContent, Typography, Paper, CardMedia } from "@material-ui/core";
+import { Card, CardContent, Typography, CardMedia } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
-import Avatar from '@material-ui/core/Avatar';
-import CallIcon from '@material-ui/icons/Call';
 import {  dailyData  } from '../../api/index'
 import IconVirus from "../../assets/icon.png"
 import smile from "../../assets/smile.png"

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Line, Bar } from "react-chartjs-2";
-import { dailyData, province } from "../../api";
+import { dailyData } from "../../api";
 import styles from "./Graph.module.css";
 
 export default function Graph({ provinsi }) {

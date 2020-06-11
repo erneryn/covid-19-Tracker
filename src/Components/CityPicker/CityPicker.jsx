@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Select, FormControl, NativeSelect ,MenuItem } from "@material-ui/core";
-import styles from "./CityPicker.module.css";
+import { FormControl, NativeSelect  } from "@material-ui/core";
+
 import { province } from "../../api";
 import { makeStyles } from "@material-ui/core/styles";
 

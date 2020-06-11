@@ -11,6 +11,8 @@ this code repository feel free to clone or donwloadl, i create this app use Reac
 
 COVID 19 INDONESIA API : [https://covid19.mathdro.id/api](https://covid19.mathdro.id/api) 
 
+DEMO : [https://covid-19-d0e06.web.app/](https://covid-19-d0e06.web.app/)
+
 ### To Start Using 
 > npm i
 
